@@ -1,0 +1,6 @@
+-r requirements.txt
+# Neural MiniLM embedder (pulls in PyTorch, ~1 GB). Without it the app falls back to TF-IDF.
+sentence-transformers>=3.0
+# Regenerating the sample PDFs and running the tests
+reportlab>=4.0
+pytest>=8.0

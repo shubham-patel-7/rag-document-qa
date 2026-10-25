@@ -34,7 +34,7 @@ flowchart LR
 git clone https://github.com/shubham-patel-7/rag-document-qa.git
 cd rag-document-qa
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
-pip install -r requirements.txt && pip install -e .
+pip install -r requirements-full.txt && pip install -e .   # requirements.txt alone = light install (TF-IDF only, no PyTorch)
 
 python scripts/make_sample_docs.py                     # (re)generate the 6 sample PDFs
 docqa ingest --docs data/sample_docs --index index/sample --embedder minilm   # first run downloads ~90 MB model

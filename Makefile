@@ -1,6 +1,6 @@
 .PHONY: install docs ingest eval test app all
 install:
-	pip install -r requirements.txt && pip install -e .
+	pip install -r requirements-full.txt && pip install -e .
 docs:
 	python scripts/make_sample_docs.py
 ingest:
