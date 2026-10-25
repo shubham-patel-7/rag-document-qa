@@ -2,6 +2,8 @@
 
 > Ask questions about your PDFs and get answers **with the page they came from**. Hybrid retrieval (FAISS dense vectors + BM25 keywords, fused with Reciprocal Rank Fusion), pluggable LLM backends, a Streamlit UI, and, the part most RAG demos skip, a **labelled question set that measures retrieval quality** instead of eyeballing it.
 
+**[Live demo](https://rag-docqua-demo.streamlit.app/)** (free hosting: if the app has been idle it takes about 30 seconds to wake up). The hosted demo uses the lightweight TF-IDF embedder; the MiniLM results below need the full install.
+
 ![App](results/figures/app_screenshot.png)
 
 ## Features
