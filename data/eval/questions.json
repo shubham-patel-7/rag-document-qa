@@ -1,0 +1,355 @@
+[
+  {
+    "id": "q01",
+    "type": "factoid",
+    "question": "Who developed the CAN protocol and in what year was it introduced?",
+    "gold": [
+      {
+        "doc": "can_bus_fundamentals.pdf",
+        "page": 1
+      }
+    ],
+    "answer_keywords": [
+      "Bosch",
+      "1986"
+    ]
+  },
+  {
+    "id": "q02",
+    "type": "factoid",
+    "question": "What does a lower numerical identifier mean for a CAN message?",
+    "gold": [
+      {
+        "doc": "can_bus_fundamentals.pdf",
+        "page": 2
+      }
+    ],
+    "answer_keywords": [
+      "higher priority"
+    ]
+  },
+  {
+    "id": "q03",
+    "type": "factoid",
+    "question": "How long can a CAN bus be at 1 Mbit/s?",
+    "gold": [
+      {
+        "doc": "can_bus_fundamentals.pdf",
+        "page": 3
+      }
+    ],
+    "answer_keywords": [
+      "40 m"
+    ]
+  },
+  {
+    "id": "q04",
+    "type": "factoid",
+    "question": "At what transmit error counter value does a CAN node go bus-off?",
+    "gold": [
+      {
+        "doc": "can_bus_fundamentals.pdf",
+        "page": 3
+      }
+    ],
+    "answer_keywords": [
+      "255"
+    ]
+  },
+  {
+    "id": "q05",
+    "type": "factoid",
+    "question": "What is the maximum payload of a CAN FD frame?",
+    "gold": [
+      {
+        "doc": "can_bus_fundamentals.pdf",
+        "page": 3
+      }
+    ],
+    "answer_keywords": [
+      "64"
+    ]
+  },
+  {
+    "id": "q06",
+    "type": "factoid",
+    "question": "What bit rate do J1939 networks typically use?",
+    "gold": [
+      {
+        "doc": "j1939_primer.pdf",
+        "page": 1
+      }
+    ],
+    "answer_keywords": [
+      "250 kbit/s"
+    ]
+  },
+  {
+    "id": "q07",
+    "type": "factoid",
+    "question": "Which PGN carries engine speed and which SPN identifies it?",
+    "gold": [
+      {
+        "doc": "j1939_primer.pdf",
+        "page": 3
+      }
+    ],
+    "answer_keywords": [
+      "61444",
+      "190"
+    ]
+  },
+  {
+    "id": "q08",
+    "type": "factoid",
+    "question": "How often is the DM1 message broadcast?",
+    "gold": [
+      {
+        "doc": "j1939_primer.pdf",
+        "page": 4
+      }
+    ],
+    "answer_keywords": [
+      "once per second"
+    ]
+  },
+  {
+    "id": "q09",
+    "type": "factoid",
+    "question": "Does the PHM08 asymmetric score penalise early or late predictions more?",
+    "gold": [
+      {
+        "doc": "predictive_maintenance_primer.pdf",
+        "page": 3
+      }
+    ],
+    "answer_keywords": [
+      "late"
+    ]
+  },
+  {
+    "id": "q10",
+    "type": "factoid",
+    "question": "Which C-MAPSS subset has two fault modes and a single operating condition?",
+    "gold": [
+      {
+        "doc": "predictive_maintenance_primer.pdf",
+        "page": 2
+      }
+    ],
+    "answer_keywords": [
+      "FD003"
+    ]
+  },
+  {
+    "id": "q11",
+    "type": "factoid",
+    "question": "What percentage of urea is in DEF?",
+    "gold": [
+      {
+        "doc": "diesel_engine_diagnostics.pdf",
+        "page": 3
+      }
+    ],
+    "answer_keywords": [
+      "32.5"
+    ]
+  },
+  {
+    "id": "q12",
+    "type": "factoid",
+    "question": "How many channels and hops per second does classic Bluetooth use?",
+    "gold": [
+      {
+        "doc": "fhss_wireless_primer.pdf",
+        "page": 1
+      }
+    ],
+    "answer_keywords": [
+      "79",
+      "1600"
+    ]
+  },
+  {
+    "id": "q13",
+    "type": "factoid",
+    "question": "What Eb/N0 does BPSK need for a bit error rate of 1e-5?",
+    "gold": [
+      {
+        "doc": "fhss_wireless_primer.pdf",
+        "page": 2
+      }
+    ],
+    "answer_keywords": [
+      "9.6"
+    ]
+  },
+  {
+    "id": "q14",
+    "type": "factoid",
+    "question": "How many records are in KDDTest+?",
+    "gold": [
+      {
+        "doc": "network_intrusion_primer.pdf",
+        "page": 2
+      }
+    ],
+    "answer_keywords": [
+      "22,544"
+    ]
+  },
+  {
+    "id": "q15",
+    "type": "paraphrase",
+    "question": "Why does a bus need resistors at both ends?",
+    "gold": [
+      {
+        "doc": "can_bus_fundamentals.pdf",
+        "page": 1
+      }
+    ],
+    "answer_keywords": [
+      "reflections"
+    ]
+  },
+  {
+    "id": "q16",
+    "type": "paraphrase",
+    "question": "How does CAN decide which of two simultaneous senders goes first?",
+    "gold": [
+      {
+        "doc": "can_bus_fundamentals.pdf",
+        "page": 2
+      }
+    ],
+    "answer_keywords": [
+      "arbitration"
+    ]
+  },
+  {
+    "id": "q17",
+    "type": "paraphrase",
+    "question": "What makes a faulty CAN node stop disrupting the rest of the network?",
+    "gold": [
+      {
+        "doc": "can_bus_fundamentals.pdf",
+        "page": 3
+      }
+    ],
+    "answer_keywords": [
+      "bus-off"
+    ]
+  },
+  {
+    "id": "q18",
+    "type": "paraphrase",
+    "question": "Which standards body defines the communication used on truck engine networks?",
+    "gold": [
+      {
+        "doc": "j1939_primer.pdf",
+        "page": 1
+      }
+    ],
+    "answer_keywords": [
+      "Society of Automotive Engineers"
+    ]
+  },
+  {
+    "id": "q19",
+    "type": "paraphrase",
+    "question": "How do I turn the raw coolant temperature byte into degrees?",
+    "gold": [
+      {
+        "doc": "j1939_primer.pdf",
+        "page": 3
+      }
+    ],
+    "answer_keywords": [
+      "-40"
+    ]
+  },
+  {
+    "id": "q20",
+    "type": "paraphrase",
+    "question": "How can a device send a payload bigger than one frame on a truck network?",
+    "gold": [
+      {
+        "doc": "j1939_primer.pdf",
+        "page": 4
+      }
+    ],
+    "answer_keywords": [
+      "1785"
+    ]
+  },
+  {
+    "id": "q21",
+    "type": "paraphrase",
+    "question": "Why is guessing failure too late worse than guessing too early?",
+    "gold": [
+      {
+        "doc": "predictive_maintenance_primer.pdf",
+        "page": 3
+      }
+    ],
+    "answer_keywords": [
+      "late"
+    ]
+  },
+  {
+    "id": "q22",
+    "type": "paraphrase",
+    "question": "Which tailpipe fumes point to oil being burned?",
+    "gold": [
+      {
+        "doc": "diesel_engine_diagnostics.pdf",
+        "page": 2
+      }
+    ],
+    "answer_keywords": [
+      "lube oil"
+    ]
+  },
+  {
+    "id": "q23",
+    "type": "paraphrase",
+    "question": "What fluid is sprayed into the exhaust to cut nitrogen oxides?",
+    "gold": [
+      {
+        "doc": "diesel_engine_diagnostics.pdf",
+        "page": 3
+      }
+    ],
+    "answer_keywords": [
+      "DEF"
+    ]
+  },
+  {
+    "id": "q24",
+    "type": "paraphrase",
+    "question": "How does a radio avoid being knocked out by a single noisy frequency?",
+    "gold": [
+      {
+        "doc": "fhss_wireless_primer.pdf",
+        "page": 1
+      }
+    ],
+    "answer_keywords": [
+      "narrowband"
+    ]
+  },
+  {
+    "id": "q25",
+    "type": "paraphrase",
+    "question": "Why can a detector with great validation scores fail on the official test split?",
+    "gold": [
+      {
+        "doc": "network_intrusion_primer.pdf",
+        "page": 3
+      }
+    ],
+    "answer_keywords": [
+      "distribution shift"
+    ]
+  }
+]

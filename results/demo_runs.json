@@ -1,0 +1,136 @@
+[
+  {
+    "demo": "1. Factoid",
+    "embedder": "tfidf",
+    "question": "Who developed the CAN protocol and in what year was it introduced?",
+    "gold": {
+      "doc": "can_bus_fundamentals.pdf",
+      "page": 1
+    },
+    "gold_rank": {
+      "bm25": 1,
+      "dense": 1,
+      "hybrid": 1
+    },
+    "answer": "The Controller Area Network (CAN) protocol was developed by Bosch and introduced in 1986. [1]",
+    "abstained": false,
+    "top_source": "can_bus_fundamentals.pdf p.1",
+    "top_source_score": 0.03278688524590164,
+    "cited": [
+      "can_bus_fundamentals.pdf p.1"
+    ],
+    "cites_gold_page": true,
+    "ms": 2.445144999967397
+  },
+  {
+    "demo": "2. Paraphrase",
+    "embedder": "tfidf",
+    "question": "How does CAN decide which of two simultaneous senders goes first?",
+    "gold": {
+      "doc": "can_bus_fundamentals.pdf",
+      "page": 2
+    },
+    "gold_rank": {
+      "bm25": 6,
+      "dense": null,
+      "hybrid": 6
+    },
+    "answer": "When either counter exceeds 127 the node becomes error-passive, and when the transmit error counter exceeds 255 the node goes bus-off and stops participating until it is reset. [1]",
+    "abstained": false,
+    "top_source": "can_bus_fundamentals.pdf p.3",
+    "top_source_score": 0.03278688524590164,
+    "cited": [
+      "can_bus_fundamentals.pdf p.3"
+    ],
+    "cites_gold_page": false,
+    "ms": 2.240302000018346
+  },
+  {
+    "demo": "3. Not in the documents",
+    "embedder": "tfidf",
+    "question": "What is the price of a Cummins X15 engine?",
+    "gold": null,
+    "gold_rank": {
+      "bm25": null,
+      "dense": null,
+      "hybrid": null
+    },
+    "answer": "A diesel engine is a compression-ignition engine. [1] Diesel Engine Diagnostics Basics: How a diesel engine works. [1]",
+    "abstained": false,
+    "top_source": "diesel_engine_diagnostics.pdf p.1",
+    "top_source_score": 0.03252247488101534,
+    "cited": [
+      "diesel_engine_diagnostics.pdf p.1"
+    ],
+    "cites_gold_page": false,
+    "ms": 2.156746999958159
+  },
+  {
+    "demo": "1. Factoid",
+    "embedder": "minilm",
+    "question": "Who developed the CAN protocol and in what year was it introduced?",
+    "gold": {
+      "doc": "can_bus_fundamentals.pdf",
+      "page": 1
+    },
+    "gold_rank": {
+      "bm25": 1,
+      "dense": 1,
+      "hybrid": 1
+    },
+    "answer": "The Controller Area Network (CAN) protocol was developed by Bosch and introduced in 1986. [1]",
+    "abstained": false,
+    "top_source": "can_bus_fundamentals.pdf p.1",
+    "top_source_score": 0.03278688524590164,
+    "cited": [
+      "can_bus_fundamentals.pdf p.1"
+    ],
+    "cites_gold_page": true,
+    "ms": 194.66928899998948
+  },
+  {
+    "demo": "2. Paraphrase",
+    "embedder": "minilm",
+    "question": "How does CAN decide which of two simultaneous senders goes first?",
+    "gold": {
+      "doc": "can_bus_fundamentals.pdf",
+      "page": 2
+    },
+    "gold_rank": {
+      "bm25": 6,
+      "dense": 1,
+      "hybrid": 3
+    },
+    "answer": "When either counter exceeds 127 the node becomes error-passive, and when the transmit error counter exceeds 255 the node goes bus-off and stops participating until it is reset. [2] When two nodes begin transmitting at the same moment, CAN resolves the conflict through non-destructive bitwise arbitration. [3]",
+    "abstained": false,
+    "top_source": "can_bus_fundamentals.pdf p.1",
+    "top_source_score": 0.03200204813108039,
+    "cited": [
+      "can_bus_fundamentals.pdf p.3",
+      "can_bus_fundamentals.pdf p.2"
+    ],
+    "cites_gold_page": true,
+    "ms": 132.16927299998815
+  },
+  {
+    "demo": "3. Not in the documents",
+    "embedder": "minilm",
+    "question": "What is the price of a Cummins X15 engine?",
+    "gold": null,
+    "gold_rank": {
+      "bm25": null,
+      "dense": null,
+      "hybrid": null
+    },
+    "answer": "The engine fuel rate is SPN 183 in bytes 1 and 2 with a resolution of 0.05 litres per hour per bit. [4] A diesel engine is a compression-ignition engine. [2]",
+    "abstained": false,
+    "top_source": "j1939_primer.pdf p.3",
+    "top_source_score": 0.03252247488101534,
+    "cited": [
+      "diesel_engine_diagnostics.pdf p.1",
+      "j1939_primer.pdf p.3"
+    ],
+    "cites_gold_page": false,
+    "ms": 171.50398900002983
+  }
+]

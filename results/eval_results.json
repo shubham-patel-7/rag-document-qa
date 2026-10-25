@@ -1,0 +1,1564 @@
+{
+  "n_questions": 25,
+  "retrievers": {
+    "BM25 only": {
+      "overall": {
+        "hit@1": 0.92,
+        "hit@3": 0.96,
+        "hit@5": 0.96,
+        "mrr": 0.94,
+        "context_recall@1": 0.84,
+        "context_recall@3": 0.96,
+        "context_recall@5": 0.96,
+        "n": 25
+      },
+      "factoid": {
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "hit@5": 1.0,
+        "mrr": 1.0,
+        "context_recall@1": 0.8571428571428571,
+        "context_recall@3": 1.0,
+        "context_recall@5": 1.0,
+        "n": 14
+      },
+      "paraphrase": {
+        "hit@1": 0.8181818181818182,
+        "hit@3": 0.9090909090909091,
+        "hit@5": 0.9090909090909091,
+        "mrr": 0.8636363636363636,
+        "context_recall@1": 0.8181818181818182,
+        "context_recall@3": 0.9090909090909091,
+        "context_recall@5": 0.9090909090909091,
+        "n": 11
+      },
+      "per_question": [
+        {
+          "id": "q01",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q02",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q03",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q04",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q05",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q06",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q07",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": false,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q08",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": false,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q09",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q10",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q11",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q12",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q13",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q14",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q15",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q16",
+          "type": "paraphrase",
+          "rank": null,
+          "ctx@1": false,
+          "ctx@3": false,
+          "ctx@5": false
+        },
+        {
+          "id": "q17",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q18",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q19",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q20",
+          "type": "paraphrase",
+          "rank": 2,
+          "ctx@1": false,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q21",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q22",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q23",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q24",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q25",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        }
+      ]
+    },
+    "TF-IDF dense (FAISS)": {
+      "overall": {
+        "hit@1": 0.92,
+        "hit@3": 0.92,
+        "hit@5": 0.96,
+        "mrr": 0.93,
+        "context_recall@1": 0.88,
+        "context_recall@3": 0.88,
+        "context_recall@5": 0.96,
+        "n": 25
+      },
+      "factoid": {
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "hit@5": 1.0,
+        "mrr": 1.0,
+        "context_recall@1": 0.9285714285714286,
+        "context_recall@3": 0.9285714285714286,
+        "context_recall@5": 1.0,
+        "n": 14
+      },
+      "paraphrase": {
+        "hit@1": 0.8181818181818182,
+        "hit@3": 0.8181818181818182,
+        "hit@5": 0.9090909090909091,
+        "mrr": 0.8409090909090909,
+        "context_recall@1": 0.8181818181818182,
+        "context_recall@3": 0.8181818181818182,
+        "context_recall@5": 0.9090909090909091,
+        "n": 11
+      },
+      "per_question": [
+        {
+          "id": "q01",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q02",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q03",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q04",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q05",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q06",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q07",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q08",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": false,
+          "ctx@3": false,
+          "ctx@5": true
+        },
+        {
+          "id": "q09",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q10",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q11",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q12",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q13",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q14",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q15",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q16",
+          "type": "paraphrase",
+          "rank": null,
+          "ctx@1": false,
+          "ctx@3": false,
+          "ctx@5": false
+        },
+        {
+          "id": "q17",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q18",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q19",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q20",
+          "type": "paraphrase",
+          "rank": 4,
+          "ctx@1": false,
+          "ctx@3": false,
+          "ctx@5": true
+        },
+        {
+          "id": "q21",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q22",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q23",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q24",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q25",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        }
+      ]
+    },
+    "Hybrid: TF-IDF + BM25 (RRF)": {
+      "overall": {
+        "hit@1": 0.92,
+        "hit@3": 0.96,
+        "hit@5": 0.96,
+        "mrr": 0.9333333333333335,
+        "context_recall@1": 0.88,
+        "context_recall@3": 0.92,
+        "context_recall@5": 0.96,
+        "n": 25
+      },
+      "factoid": {
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "hit@5": 1.0,
+        "mrr": 1.0,
+        "context_recall@1": 0.9285714285714286,
+        "context_recall@3": 0.9285714285714286,
+        "context_recall@5": 1.0,
+        "n": 14
+      },
+      "paraphrase": {
+        "hit@1": 0.8181818181818182,
+        "hit@3": 0.9090909090909091,
+        "hit@5": 0.9090909090909091,
+        "mrr": 0.8484848484848484,
+        "context_recall@1": 0.8181818181818182,
+        "context_recall@3": 0.9090909090909091,
+        "context_recall@5": 0.9090909090909091,
+        "n": 11
+      },
+      "per_question": [
+        {
+          "id": "q01",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q02",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q03",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q04",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q05",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q06",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q07",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q08",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": false,
+          "ctx@3": false,
+          "ctx@5": true
+        },
+        {
+          "id": "q09",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q10",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q11",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q12",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q13",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q14",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q15",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q16",
+          "type": "paraphrase",
+          "rank": null,
+          "ctx@1": false,
+          "ctx@3": false,
+          "ctx@5": false
+        },
+        {
+          "id": "q17",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q18",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q19",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q20",
+          "type": "paraphrase",
+          "rank": 3,
+          "ctx@1": false,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q21",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q22",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q23",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q24",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q25",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        }
+      ]
+    },
+    "MiniLM dense (FAISS)": {
+      "overall": {
+        "hit@1": 0.88,
+        "hit@3": 0.96,
+        "hit@5": 1.0,
+        "mrr": 0.9279999999999999,
+        "context_recall@1": 0.76,
+        "context_recall@3": 0.96,
+        "context_recall@5": 1.0,
+        "n": 25
+      },
+      "factoid": {
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "hit@5": 1.0,
+        "mrr": 1.0,
+        "context_recall@1": 0.7857142857142857,
+        "context_recall@3": 1.0,
+        "context_recall@5": 1.0,
+        "n": 14
+      },
+      "paraphrase": {
+        "hit@1": 0.7272727272727273,
+        "hit@3": 0.9090909090909091,
+        "hit@5": 1.0,
+        "mrr": 0.8363636363636363,
+        "context_recall@1": 0.7272727272727273,
+        "context_recall@3": 0.9090909090909091,
+        "context_recall@5": 1.0,
+        "n": 11
+      },
+      "per_question": [
+        {
+          "id": "q01",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q02",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": false,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q03",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q04",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q05",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q06",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q07",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": false,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q08",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": false,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q09",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q10",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q11",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q12",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q13",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q14",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q15",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q16",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q17",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q18",
+          "type": "paraphrase",
+          "rank": 2,
+          "ctx@1": false,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q19",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q20",
+          "type": "paraphrase",
+          "rank": 5,
+          "ctx@1": false,
+          "ctx@3": false,
+          "ctx@5": true
+        },
+        {
+          "id": "q21",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q22",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q23",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q24",
+          "type": "paraphrase",
+          "rank": 2,
+          "ctx@1": false,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q25",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        }
+      ]
+    },
+    "Hybrid: MiniLM + BM25 (RRF)": {
+      "overall": {
+        "hit@1": 0.92,
+        "hit@3": 1.0,
+        "hit@5": 1.0,
+        "mrr": 0.9533333333333333,
+        "context_recall@1": 0.84,
+        "context_recall@3": 1.0,
+        "context_recall@5": 1.0,
+        "n": 25
+      },
+      "factoid": {
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "hit@5": 1.0,
+        "mrr": 1.0,
+        "context_recall@1": 0.8571428571428571,
+        "context_recall@3": 1.0,
+        "context_recall@5": 1.0,
+        "n": 14
+      },
+      "paraphrase": {
+        "hit@1": 0.8181818181818182,
+        "hit@3": 1.0,
+        "hit@5": 1.0,
+        "mrr": 0.8939393939393938,
+        "context_recall@1": 0.8181818181818182,
+        "context_recall@3": 1.0,
+        "context_recall@5": 1.0,
+        "n": 11
+      },
+      "per_question": [
+        {
+          "id": "q01",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q02",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q03",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q04",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q05",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q06",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q07",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": false,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q08",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": false,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q09",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q10",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q11",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q12",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q13",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q14",
+          "type": "factoid",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q15",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q16",
+          "type": "paraphrase",
+          "rank": 3,
+          "ctx@1": false,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q17",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q18",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q19",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q20",
+          "type": "paraphrase",
+          "rank": 2,
+          "ctx@1": false,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q21",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q22",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q23",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q24",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        },
+        {
+          "id": "q25",
+          "type": "paraphrase",
+          "rank": 1,
+          "ctx@1": true,
+          "ctx@3": true,
+          "ctx@5": true
+        }
+      ]
+    }
+  },
+  "chunk_size_sweep": {
+    "TF-IDF": {
+      "60": {
+        "hit@1": 0.88,
+        "hit@3": 0.92,
+        "hit@5": 0.96,
+        "mrr": 0.9013333333333332,
+        "context_recall@1": 0.72,
+        "context_recall@3": 0.88,
+        "context_recall@5": 0.96,
+        "n": 25,
+        "n_chunks": 64
+      },
+      "120": {
+        "hit@1": 0.92,
+        "hit@3": 0.96,
+        "hit@5": 0.96,
+        "mrr": 0.9333333333333335,
+        "context_recall@1": 0.88,
+        "context_recall@3": 0.92,
+        "context_recall@5": 0.96,
+        "n": 25,
+        "n_chunks": 30
+      },
+      "200": {
+        "hit@1": 0.92,
+        "hit@3": 0.92,
+        "hit@5": 1.0,
+        "mrr": 0.9359999999999999,
+        "context_recall@1": 0.96,
+        "context_recall@3": 0.96,
+        "context_recall@5": 1.0,
+        "n": 25,
+        "n_chunks": 19
+      }
+    },
+    "MiniLM": {
+      "60": {
+        "hit@1": 0.84,
+        "hit@3": 1.0,
+        "hit@5": 1.0,
+        "mrr": 0.92,
+        "context_recall@1": 0.76,
+        "context_recall@3": 0.96,
+        "context_recall@5": 1.0,
+        "n": 25,
+        "n_chunks": 64
+      },
+      "120": {
+        "hit@1": 0.92,
+        "hit@3": 1.0,
+        "hit@5": 1.0,
+        "mrr": 0.9533333333333333,
+        "context_recall@1": 0.84,
+        "context_recall@3": 1.0,
+        "context_recall@5": 1.0,
+        "n": 25,
+        "n_chunks": 30
+      },
+      "200": {
+        "hit@1": 0.96,
+        "hit@3": 0.96,
+        "hit@5": 1.0,
+        "mrr": 0.968,
+        "context_recall@1": 0.96,
+        "context_recall@3": 0.96,
+        "context_recall@5": 1.0,
+        "n": 25,
+        "n_chunks": 19
+      }
+    }
+  },
+  "answers": {
+    "Hybrid: TF-IDF + BM25 (RRF) | extractive": {
+      "keyword_accuracy": 0.6,
+      "cites_gold_page": 0.88,
+      "rows": [
+        {
+          "id": "q01",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "The Controller Area Network (CAN) protocol was developed by Bosch and introduced in 1986. [1]"
+        },
+        {
+          "id": "q02",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "The message with the lower numerical identifier wins because it contains dominant bits earlier, so a lower identifier means a higher priority. [1]"
+        },
+        {
+          "id": "q03",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "The achievable bus length falls as the bit rate rises: roughly 40 m at 1 Mbit/s, about 100 m at 500 kbit/s and up to about 500 m at 125 kbit/s. [1] Classical CAN supports bit rates up to 1 Mbit/s. [1]"
+        },
+        {
+          "id": "q04",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "Every node keeps a transmit error counter (TEC) and a receive error counter (REC). [1] When either counter exceeds 127 the node becomes error-passive, and when the transmit error counter exceeds 255 the node goes bus-off and stops participating until it is reset. [1]"
+        },
+        {
+          "id": "q05",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "A CAN FD frame can carry up to 64 data bytes instead of 8, and the data phase can run at a higher bit rate than the arbitration phase when the bit rate switch (BRS) bit is set. [1]"
+        },
+        {
+          "id": "q06",
+          "correct": false,
+          "cites_gold_page": true,
+          "answer": "J1939 networks use 29-bit extended CAN identifiers. [1]"
+        },
+        {
+          "id": "q07",
+          "correct": false,
+          "cites_gold_page": true,
+          "answer": "It carries engine speed as SPN 190 in bytes 4 and 5, with a resolution of 0.125 rpm per bit. [1] Cruise Control and Vehicle Speed (CCVS) is PGN 65265 (0xFEF1) and carries wheel-based vehicle speed as SPN 84 in bytes 2 and 3 with a resolution of 1/256 km/h per bit. [2]"
+        },
+        {
+          "id": "q08",
+          "correct": false,
+          "cites_gold_page": false,
+          "answer": "If PF is 240 or higher the message is PDU2, a broadcast message, and the PS field acts as a group extension. [3] CAN is a multi-master, message-based broadcast bus: every node sees every message, and any node may start transmitting when the bus is idle. [5]"
+        },
+        {
+          "id": "q09",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "Because predicting failure too late is more harmful than predicting it too early, the PHM08 challenge introduced an asymmetric scoring function. [1] With d equal to predicted minus actual RUL, the score is exp(-d/13) - 1 when d is negative and exp(d/10) - 1 otherwise, so late predictions are penalised more heavily than early ones. [1]"
+        },
+        {
+          "id": "q10",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "FD004 has six operating conditions and two fault modes and is the hardest subset. [1] FD003 has one operating condition and two fault modes (high-pressure compressor and fan degradation). [2]"
+        },
+        {
+          "id": "q11",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "It works by injecting diesel exhaust fluid (DEF), a solution of 32.5 percent urea in deionised water, into the exhaust stream upstream of a catalyst. [1]"
+        },
+        {
+          "id": "q12",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "It hops over 79 channels of 1 MHz in the 2.4 GHz ISM band at 1600 hops per second. [1] Classic Bluetooth is a well-known FHSS system. [1]"
+        },
+        {
+          "id": "q13",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "BPSK needs an Eb/N0 of about 9.6 dB to reach a bit error rate of 1e-5, and about 6.8 dB for 1e-3. [2]"
+        },
+        {
+          "id": "q14",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "The training file KDDTrain+ contains 125,973 records and the test file KDDTest+ contains 22,544 records. [1]"
+        },
+        {
+          "id": "q15",
+          "correct": false,
+          "cites_gold_page": true,
+          "answer": "When one node drives the bus dominant while another drives it recessive, the bus ends up dominant. [1]"
+        },
+        {
+          "id": "q16",
+          "correct": false,
+          "cites_gold_page": false,
+          "answer": "When either counter exceeds 127 the node becomes error-passive, and when the transmit error counter exceeds 255 the node goes bus-off and stops participating until it is reset. [1]"
+        },
+        {
+          "id": "q17",
+          "correct": false,
+          "cites_gold_page": true,
+          "answer": "This mechanism isolates a faulty node so that it cannot block the whole network. [1]"
+        },
+        {
+          "id": "q18",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "SAE J1939 is a family of standards from the Society of Automotive Engineers for communication over CAN in heavy-duty vehicles, diesel engines, generator sets and agricultural and construction machinery. [1]"
+        },
+        {
+          "id": "q19",
+          "correct": false,
+          "cites_gold_page": true,
+          "answer": "Engine coolant temperature is SPN 110 in byte 1. [1]"
+        },
+        {
+          "id": "q20",
+          "correct": false,
+          "cites_gold_page": false,
+          "answer": "Most engine data is broadcast periodically, and a request mechanism lets a device ask for a message that is not sent cyclically. [4] A network-based IDS (NIDS) inspects traffic on a network segment, while a host-based IDS (HIDS) watches logs and system calls on one machine. [2]"
+        },
+        {
+          "id": "q21",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "Because predicting failure too late is more harmful than predicting it too early, the PHM08 challenge introduced an asymmetric scoring function. [1]"
+        },
+        {
+          "id": "q22",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "Blue smoke means that lube oil is being burned, often because of worn valve seals or piston rings. [1]"
+        },
+        {
+          "id": "q23",
+          "correct": false,
+          "cites_gold_page": true,
+          "answer": "Exhaust gas recirculation (EGR) feeds part of the exhaust back into the intake, which lowers peak combustion temperature and therefore the formation of nitrogen oxides (NOx). [1]"
+        },
+        {
+          "id": "q24",
+          "correct": false,
+          "cites_gold_page": true,
+          "answer": "It also makes eavesdropping harder and averages out frequency-selective fading. [1] Frequency Hopping and BER Primer: Frequency-hopping spread spectrum. [1]"
+        },
+        {
+          "id": "q25",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "U2R is the rarest family and the hardest to detect, and a model that looks excellent on validation data can lose a lot of performance on the separate test set because of distribution shift. [1]"
+        }
+      ]
+    },
+    "Hybrid: MiniLM + BM25 (RRF) | extractive": {
+      "keyword_accuracy": 0.8,
+      "cites_gold_page": 1.0,
+      "rows": [
+        {
+          "id": "q01",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "The Controller Area Network (CAN) protocol was developed by Bosch and introduced in 1986. [1]"
+        },
+        {
+          "id": "q02",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "The message with the lower numerical identifier wins because it contains dominant bits earlier, so a lower identifier means a higher priority. [1]"
+        },
+        {
+          "id": "q03",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "The achievable bus length falls as the bit rate rises: roughly 40 m at 1 Mbit/s, about 100 m at 500 kbit/s and up to about 500 m at 125 kbit/s. [1] Classical CAN supports bit rates up to 1 Mbit/s. [1]"
+        },
+        {
+          "id": "q04",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "When either counter exceeds 127 the node becomes error-passive, and when the transmit error counter exceeds 255 the node goes bus-off and stops participating until it is reset. [1] Every node keeps a transmit error counter (TEC) and a receive error counter (REC). [1]"
+        },
+        {
+          "id": "q05",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "A CAN FD frame can carry up to 64 data bytes instead of 8, and the data phase can run at a higher bit rate than the arbitration phase when the bit rate switch (BRS) bit is set. [1]"
+        },
+        {
+          "id": "q06",
+          "correct": false,
+          "cites_gold_page": true,
+          "answer": "J1939 networks use 29-bit extended CAN identifiers. [1]"
+        },
+        {
+          "id": "q07",
+          "correct": false,
+          "cites_gold_page": true,
+          "answer": "It carries engine speed as SPN 190 in bytes 4 and 5, with a resolution of 0.125 rpm per bit. [2] Cruise Control and Vehicle Speed (CCVS) is PGN 65265 (0xFEF1) and carries wheel-based vehicle speed as SPN 84 in bytes 2 and 3 with a resolution of 1/256 km/h per bit. [1]"
+        },
+        {
+          "id": "q08",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "By default an ECU broadcasts DM1 once per second while a fault is active, and also sends it immediately when the fault status changes. [2] CAN is a multi-master, message-based broadcast bus: every node sees every message, and any node may start transmitting when the bus is idle. [5]"
+        },
+        {
+          "id": "q09",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "Because predicting failure too late is more harmful than predicting it too early, the PHM08 challenge introduced an asymmetric scoring function. [1] With d equal to predicted minus actual RUL, the score is exp(-d/13) - 1 when d is negative and exp(d/10) - 1 otherwise, so late predictions are penalised more heavily than early ones. [1]"
+        },
+        {
+          "id": "q10",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "FD004 has six operating conditions and two fault modes and is the hardest subset. [2] FD003 has one operating condition and two fault modes (high-pressure compressor and fan degradation). [1]"
+        },
+        {
+          "id": "q11",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "It works by injecting diesel exhaust fluid (DEF), a solution of 32.5 percent urea in deionised water, into the exhaust stream upstream of a catalyst. [1]"
+        },
+        {
+          "id": "q12",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "It hops over 79 channels of 1 MHz in the 2.4 GHz ISM band at 1600 hops per second. [1]"
+        },
+        {
+          "id": "q13",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "BPSK needs an Eb/N0 of about 9.6 dB to reach a bit error rate of 1e-5, and about 6.8 dB for 1e-3. [1] For coherent BPSK over an additive white Gaussian noise (AWGN) channel the bit error rate is Q(sqrt(2 Eb/N0)), which equals 0.5 times erfc(sqrt(Eb/N0)). [2]"
+        },
+        {
+          "id": "q14",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "The training file KDDTrain+ contains 125,973 records and the test file KDDTest+ contains 22,544 records. [1]"
+        },
+        {
+          "id": "q15",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "When one node drives the bus dominant while another drives it recessive, the bus ends up dominant. [1] A 120 ohm termination resistor is placed at each end of the bus to prevent signal reflections. [1]"
+        },
+        {
+          "id": "q16",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "When either counter exceeds 127 the node becomes error-passive, and when the transmit error counter exceeds 255 the node goes bus-off and stops participating until it is reset. [2] When two nodes begin transmitting at the same moment, CAN resolves the conflict through non-destructive bitwise arbitration. [3]"
+        },
+        {
+          "id": "q17",
+          "correct": false,
+          "cites_gold_page": true,
+          "answer": "This mechanism isolates a faulty node so that it cannot block the whole network. [1]"
+        },
+        {
+          "id": "q18",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "SAE J1939 is a family of standards from the Society of Automotive Engineers for communication over CAN in heavy-duty vehicles, diesel engines, generator sets and agricultural and construction machinery. [1]"
+        },
+        {
+          "id": "q19",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "Engine coolant temperature is SPN 110 in byte 1. [1] It has a resolution of 1 degree C per bit and an offset of -40 degrees C, so a raw value of 130 means 90 degrees C. [1]"
+        },
+        {
+          "id": "q20",
+          "correct": false,
+          "cites_gold_page": true,
+          "answer": "Most engine data is broadcast periodically, and a request mechanism lets a device ask for a message that is not sent cyclically. [4] A CAN frame holds only 8 data bytes, so J1939 defines a transport protocol for longer messages. [2]"
+        },
+        {
+          "id": "q21",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "Because predicting failure too late is more harmful than predicting it too early, the PHM08 challenge introduced an asymmetric scoring function. [1] With d equal to predicted minus actual RUL, the score is exp(-d/13) - 1 when d is negative and exp(d/10) - 1 otherwise, so late predictions are penalised more heavily than early ones. [1]"
+        },
+        {
+          "id": "q22",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "Blue smoke means that lube oil is being burned, often because of worn valve seals or piston rings. [1]"
+        },
+        {
+          "id": "q23",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "Exhaust gas recirculation (EGR) feeds part of the exhaust back into the intake, which lowers peak combustion temperature and therefore the formation of nitrogen oxides (NOx). [1] It works by injecting diesel exhaust fluid (DEF), a solution of 32.5 percent urea in deionised water, into the exhaust stream upstream of a catalyst. [2]"
+        },
+        {
+          "id": "q24",
+          "correct": false,
+          "cites_gold_page": true,
+          "answer": "It also makes eavesdropping harder and averages out frequency-selective fading. [1] Frequency Hopping and BER Primer: Synchronisation and partial-band interference. [2]"
+        },
+        {
+          "id": "q25",
+          "correct": true,
+          "cites_gold_page": true,
+          "answer": "U2R is the rarest family and the hardest to detect, and a model that looks excellent on validation data can lose a lot of performance on the separate test set because of distribution shift. [1]"
+        }
+      ]
+    }
+  },
+  "skipped": [],
+  "n_chunks": 30,
+  "n_docs": 6
+}
